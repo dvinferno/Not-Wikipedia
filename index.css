@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f6f6f6;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #0029e2;
+  display: block;
+}
+
+.sidenav hr {
+  width: 80%;
+  border-top-style: hidden;
+  border-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgb(170, 170, 170),
+      rgba(255, 255, 255, 0)
+    )
+    1;
+}
+
+.sidenav h6 {
+  font-size: 11px;
+  color: #797979;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.info-table{
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+
+.info-table .info-table-header {
+    text-align: center;
+    background-color: #CCF; 
+}
+
+.info-table .info-table-image {
+    text-align: center;
+    vertical-align: top;
+}
+
+.info-table .info-table-label {
+    text-align: left;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.info-table .info-table-data {
+    text-align: left;
+}
+
+.info-table .title{
+    font-size: 125%;
+}
+
+.main {
+  margin-left: 160px;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+
+.tc {
+
+}
+
+div {
+    display: block;
+}
+
+.contents {
+    display: table;
+    padding: 7px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 5px;
+    font-size: 95%;
+}
+
+.contents > .tctitle {
+    text-align: center;
+}
+
+.tctitle h2 {
+    display: inline;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.tc ol {
+    list-style: none;
+    margin: 0.3em 0;
+    padding: 0;
+}
+
+ol {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }

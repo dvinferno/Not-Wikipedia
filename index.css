@@ -49,6 +49,14 @@ body {
   margin-left: 15px;
 }
 
+.sidenav div {
+  font-size: 11px;
+  color: #797979;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+}
+
 .info-table{
     border: 1px solid #a2a9b1;
     border-spacing: 3px;
